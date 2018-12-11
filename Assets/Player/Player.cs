@@ -19,6 +19,7 @@ public class Player : MonoBehaviour {
         float vert = CrossPlatformInputManager.GetAxis("Vertical");
 
         //Debug.Log("h=" + hz + " v=" + vert);
+        //Debug.Log("h=" + hz);
 
     }
 }
