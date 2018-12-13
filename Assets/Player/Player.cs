@@ -22,4 +22,12 @@ public class Player : MonoBehaviour {
         //Debug.Log("h=" + hz);
 
     }
+
+    private void OnApplicationPause(bool pause)
+    {
+        if (pause)
+        {
+            Debug.Log("Player within game paused");
+        }
+    }
 }
